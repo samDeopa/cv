@@ -1,91 +1,59 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
   <head>
     <meta charset="utf-8">
-    <title>Sam's web page</title>
+    <title>Sam's Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="Images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
   </head>
-
   <body>
-    <table cellspacing="20">
-      <tr>
-        <td><img src="Images/my-pic.PNG" alt="Sam's image"></td>
-        <td><h1>Sameer Chand</h1>
-        <p><em>Student at <strong>GEHU</strong>.</em></p>
-        <p>I am persuing B.Tech from <strong> <a href="https://www.gehu.ac.in/content/gehu/en.html" download="Images/minion.jpg">Graphic Era Hill Universtity</a></strong> </p></td>
-      </tr>
-    </table>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-      <li>Ehical Hacking</li>
-      <ul>
-        <li>Social engeneering</li>
-        <li>Network Testing</li>
-      </ul>
-      <li>Web Devlopment</li>
-      <ul>
-        <li>HTML</li>
-        <li>JS</li>
-        <li>CSS</li>
-      </ul>
-      <li>Python</li>
-      <li>java</li>
-    </ul>
+    <div class="top">
+      <img src="Images/cloud2.png" class="cloud-top" alt="cloud">
+      <h1>I'm Sam</h1>
+      <h2 class="sub-heading">A Web Devloper</h2>
+      <img src="Images/mountain1.png" class="mountain" alt="a mountain">
+      <img src="Images/cloud3.png" class="cloud-bottom" alt="cloud">
+    </div>
 
-    <hr>
-
-    <table>
-      <thead>
-        <tr>
-          <th>Year</th>
-          <th>Event</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2018</td>
-          <td>Passed High School</td>
-        </tr>
-        <tr>
-          <td>2022</td>
-          <td>Will be passing B.Tech</td>
-        </tr>
-      </tbody>
-      <tfoot>
-
-      </tfoot>
-    </table>
-
-    <hr>
-
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>Python</td>
-        <td>⭐⭐⭐  </td>
-        <td>photoshop</td>
-        <td>⭐     </td>
-      </tr>
-      <tr>
-        <td>Ethical Hacking</td>
-        <td>⭐⭐⭐</td>
-        <td>Java</td>
-        <td>⭐⭐⭐  </td>
-      </tr>
-      <tr>
-        <td>web devlopment</td>
-        <td>⭐⭐⭐⭐⭐</td>
-      </tr>
-    </table>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="Images/my-pic.png" alt="Sam's pic">
+        <h2>Hola.</h2>
+        <p>I am a student at Graphic Era,persuing B.Tech(cs) and a web devlpoer.</p>
+      </div>
+      <hr class="bubble-line">
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="icon1" src="https://image.flaticon.com/icons/svg/919/919852.svg" alt="python-icon">
+          <h3>Python Programming</h3>
+          <p>I can solve problems and make program in python language.</p>
+        </div>
+        <div class="skill-row">
+          <img class="icon2" src="https://image.flaticon.com/icons/png/512/2721/2721585.png" alt="hacker icon">
+          <h3>Ethical hacking</h3>
+          <p>Very keen about computers and learning Ethical Hacking.</p>
+        </div>
+      </div>
+      <hr class="bubble-line">
 
 
-    <hr>
-    <a href="Hobbies.html">My hobbies</a>
-    <br>
-    <a href="Contact.html">Contact Me</a>
+        <h2>Get In Touch</h2>
+        <h3>If you want me to build your very own web site.</h3>
+        <p>I can design a Website accourding to your prefences may it be for personal blog or for bussiness.</p>
+        <a class="btn" href="mailto:sameer.chamd.deopa@gmail.com">Contact Me</a>
+      </div>
+    </div>
 
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class="copyright">© 2020 Sameer Chand.</p>
+    </div>
 
   </body>
-
 </html>
